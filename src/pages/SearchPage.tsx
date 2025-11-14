@@ -1,5 +1,11 @@
+import { useLoaderData } from 'react-router-dom';
+
 function SearchPage() {
-  return <div>SearchPage</div>;
+  const data = useLoaderData();
+
+  console.log(data);
+
+  return <div>Search</div>;
 }
 
 export default SearchPage;

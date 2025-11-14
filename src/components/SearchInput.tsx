@@ -12,7 +12,7 @@ function SearchInput() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    navigate(`/search?=${term}`);
+    navigate(`/search?term=${term}`);
   };
 
   return (
